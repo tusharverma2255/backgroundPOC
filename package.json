@@ -1,5 +1,5 @@
 {
-  "name": "backgroundProcess",
+  "name": "backgroundprocess",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "express": "^4.19.2",
     "react": "18.2.0",
-    "react-native": "0.74.1"
+    "react-native": "0.74.1",
+    "react-native-background-actions": "^3.0.1",
+    "react-native-sqlite-storage": "^6.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -22,6 +26,7 @@
     "@react-native/metro-config": "0.74.83",
     "@react-native/typescript-config": "0.74.83",
     "@types/react": "^18.2.6",
+    "@types/react-native-sqlite-storage": "^6.0.5",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.6.3",
     "eslint": "^8.19.0",
@@ -32,5 +37,9 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "description": "This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).",
+  "main": "index.js",
+  "author": "tushar",
+  "license": "ISC"
 }
